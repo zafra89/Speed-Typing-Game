@@ -1,4 +1,4 @@
-lass SpeedTypingGame {
+class SpeedTypingGame {
     constructor(totalTime) {
         this.totalTime = totalTime;
         this.timeRemaining = totalTime;
