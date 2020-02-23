@@ -6,3 +6,13 @@ html {
     display: flex;
     text-align: center;
 }
+
+.correct {
+    color: green;
+    font-weight: bolder;
+}
+
+.incorrect {
+    color: red;
+    font-weight: bolder;
+}
