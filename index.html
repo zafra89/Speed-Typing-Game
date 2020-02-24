@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="app.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Passion+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+        <title>Typing Game</title>
+        <div id='title'>
+            <h1>Speed Typing Game</h1>
+        </div>
+    </head>
+    <body>
+        <div id='info' class="hide">
+            <p id='time-reamining'>Time remaining: 
+                <span id='seconds'></span>
+            </p>
+        </div>
+        <div id='play-again-text' class='hide'>
+            <p id='play-again'>Wanna play again? Click restart button</p>
+        </div>
+        <div id='text-to-type-div'>
+            <p id='text-to-type' class='hide'></p>
+        </div>
+        <div>
+            <textarea name='textarea' class='hide'></textarea>
+        </div>
+        <br>
+        <div id='buttons-container'>
+            <button id='start-btn'>Start</button>
+            <button id='next-btn' class='hide'>Next</button>
+        </div>
+    </body>
+</html>
