@@ -1,0 +1,95 @@
+.hide {
+    display: none;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    background-image: url('https://www.xmple.com/wallpaper/linear-blue-purple-gradient-2560x1440-c2-6495ed-8b008b-a-15-f-14.svg');
+    text-align: center;
+}
+
+.correct {
+    color: green;
+    font-weight: bolder;
+}
+
+.incorrect {
+    color: rgb(192, 0, 0);
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Luckiest Guy';
+    color:rgb(218, 218, 218);
+    font-weight: bolder;
+    text-shadow: -5px -1px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+body {
+    font-size:25px;
+}
+
+button {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: rgb(226, 230, 3);
+    color: rgb(0, 0, 0);
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+    background-color: rgb(255, 52, 245);
+    color: rgb(0, 0, 0);
+  }
+
+  textarea {
+      border: 2px solid black;
+      border-radius: 8px;
+      width: 500px;
+      height: 150px;
+      font-size: 25px;
+      padding-left:0;
+      padding-top:0;
+      padding-bottom:0.4em;
+      padding-right: 0.4em;
+      font-family: 'Handlee';
+      font-weight: 600; 
+      background-color: rgb(207, 174, 238);
+  }
+
+  #text-to-type-div {
+      font-size: 40px;
+      color: rgb(218, 218, 218);
+      text-shadow: -1px -1px black, 0 1px black, 1px 0 black, 0 -1px black;
+      font-family: 'Muli';
+  }
+
+  #info {
+      font-size: 45px;
+      color: rgb(0, 0, 0);
+      font-family: 'Passion One';
+  }
+
+   #seconds {
+        font-size: 35px;
+        border: 2px solid black;
+        border-radius: 8px;
+        padding-left:15px;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-right: 15px;
+        background-color: rgb(218, 218, 218);
+  }
+
+  #play-again {
+    font-size: 25px;
+  }
